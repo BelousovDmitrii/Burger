@@ -1,0 +1,55 @@
+
+.info__header{
+	    margin-bottom: 80px;
+	color: #2f3234;
+	text-transform: uppercase;
+	font-family: 'Gagalin-Regular',Arial,sans-serif;
+	font-size: 72px;
+	text-align: center;
+	
+}
+.info__block{
+	text-align: center;
+	
+
+}
+.info__item{
+	
+	vertical-align: top;
+	display: inline-block;
+	width: 33%;
+}
+.meat__icon{
+	background-image: url(../../icons/meat.svg);
+	background-repeat: no-repeat;
+	width: 96.428px;
+	height: 89.246px;
+	
+}
+.natural__icon{
+	background-image: url(../../icons/natural.svg);
+	background-repeat: no-repeat;
+	width: 88px;
+	height: 75.534px;
+}
+.hand__icon{
+	background-image: url(../../icons/hand.svg);
+	background-repeat: no-repeat;
+	width: 73px;
+	height: 85.875px;
+}
+.info__item-title{
+	padding-bottom: 20px;
+	 font-family: 'Lifehack-Medium',Arial,sans-serif;
+	 font-size: 24px;
+}
+.info__image-wrapper{
+	display: inline-block;
+}
+
+.info__item-desc{
+	 font-family: 'Ubuntu-Light',arial,sans-serif;
+	 font-size: 14px;
+	 color: #2f3234;
+	     line-height: 1.8;
+}

@@ -1,0 +1,50 @@
+.section{
+	height: 100vh;
+    height: 100%;
+	min-height: 650px;
+
+}
+.performance{
+	background: url(../../bg/bg-performance.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.info{
+	background: url(../../bg/bg-info.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.burgers{
+	background: #f9b43b;
+    background: -moz-linear-gradient(top, #f9b43b 0%, #eb8c38 40%, #eb8c38 60%, #eb8c38 60%, #f9b43b 100%);
+    background: -webkit-linear-gradient(top, #f9b43b 0%, #eb8c38 40%, #eb8c38 60%, #eb8c38 60%, #f9b43b 100%);
+    background: linear-gradient(to bottom, #f9b43b 0%, #eb8c38 40%, #eb8c38 60%, #eb8c38 60%, #f9b43b 100%);
+	background-size: cover;
+	position: relative;
+}
+.command{
+	background: url(../../bg/bg-command.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.menu{
+	background: url(../../bg/bg-menu.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.reviews{
+	
+	background-size: cover;
+	position: relative;
+}
+.orderbuy{
+	background: url(../../bg/bg-orderbuy.png) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.map{
+	
+	background-size: cover;
+	position: relative;
+}
+

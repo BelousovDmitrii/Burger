@@ -1,0 +1,45 @@
+.footer__left{
+    float: left;
+    width: 50%;
+}
+.address{
+    padding-top: 10px;
+    font-family: 'Ubuntu-Light',sans-serif;
+    color: #fff;
+    
+}
+.socials__link svg {
+    width: 100%;
+    height: 100%;
+}
+.telephone__link{
+    display: block;
+    color: #e45028;
+    font-family: 'Ubuntu-Bold',sans-serif;
+}
+.footer__right{
+    float: left;
+    width: 50%;
+}
+.social__list{
+    padding-top: 20px;
+    text-align: right;
+}
+.social__icons{
+       display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+}
+.social__link{
+    display: inline-block;
+    max-width: ;
+    max-height: ;
+    opacity: .3;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.social__link:hover{
+    opacity: 1;
+}
+

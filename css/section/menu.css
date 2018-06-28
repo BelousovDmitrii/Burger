@@ -1,0 +1,108 @@
+.menu__title{
+	position: absolute;
+	top: 113px;
+	left: 100px;
+	 color: #fff;
+	text-transform: uppercase;
+	font-family: 'Gagalin-Regular',Arial,sans-serif;
+	font-size: 72px;
+}
+.menu__list{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+}
+.menu__item{
+	height: 100%;
+	display: inline-block;
+	float: left;
+   
+
+}
+.menu__item_trigger-text{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: -275px;
+    height: 80px;
+    margin-top: -40px;
+    text-align: center;
+	color: #fff;
+    width:650px ;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-family: 'Gagalin-Regular',Arial,sans-serif;
+	font-size: 40px;
+	transform: rotate(-90deg);
+}
+ .active-hor-acco .menu__item_trigger-text  {
+    
+    transition: all .2s;
+color: #f9b43b;
+}
+.menu__item_trigger-text:hover {
+    transition: all .2s;
+color: #f9b43b;
+}
+.middle{
+	padding-bottom: 15px;
+}
+.bottom{
+	
+}
+.menu__item-trigger{
+	text-align: center;
+	
+	position: relative;
+	width: 80px;
+	height: 100%;
+	display: block;
+	float: left;
+	
+}
+.bg__meat{
+	background-image: url( ../../image/menu__item-one.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.bg__vegan{
+	background-image: url( ../../image/menu__item-two.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.bg__diet{
+	background-image: url( ../../image/menu__item-three.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.menu__item-content-wrapper{
+    
+	
+	float: left;
+	background-color: rgba(47, 50, 52, 0.93);
+	width: 0;
+    overflow: hidden;
+	height: 100%;
+	
+	
+	opacity: 0.9;
+    transition: all .3s;
+} 
+.menu-item__content{
+    padding:80px 35px;
+    width: 540px;
+    font-family: 'Ubuntu-Light','Arial',sans-serif;
+    color: #fff;
+	line-height: 1.8;
+}

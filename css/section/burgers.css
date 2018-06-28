@@ -1,0 +1,228 @@
+.burger__slider-wrapper{
+	position: relative;
+    overflow: hidden;
+    height: 500px;
+   
+    
+}
+.burgers__list{
+      white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.burgers__item{
+    width: 940px;
+    height: 100%;
+	position: relative;
+    padding-bottom: 85px;
+    display: inline-block;
+}
+.slider__left{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	
+	transform: rotate(90deg);
+}
+.slider__right{
+	position: absolute;
+	top: 50%;
+	right: -10px;
+	transform: rotate(-90deg);
+}
+.dropdawn__ingridients_list{
+	position: absolute;
+	padding:20px;
+	border-radius: 10px;
+
+	left: -9999px;
+	z-index: 10;
+	background: rgba(255, 255, 255, 0.9); 
+	width:270px;
+	opacity: 0;
+	
+}
+.dropdawn__ingridients_list:before{
+	content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    left: -29px;
+}
+.ingridients:hover .dropdawn__ingridients_list{
+	
+-webkit-transition:opacity .5s;
+	-moz-transition:opacity .5s;
+	-ms-transition:opacity .5s;
+	-o-transition:opacity .5s;
+	transition:opacity .5s;
+	opacity: 1;
+	left: 100%;
+} 
+.ingridients:hover{
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+	opacity: 1;
+	background-color: #e35028;
+}
+.ingridients__icon{
+
+	background-repeat: no-repeat;
+
+}
+.beef__icon{
+		width: 44px;
+	height: 39.212px;
+	background-image: url(../../icons/beef.svg);
+}
+.buns__icon{
+		width: 48px;
+	height: 30.317px;
+	background-image: url(../../icons/buns.svg);
+}
+.salad__icon{
+		width: 38px;
+	height: 38.638px;
+	background-image: url(../../icons/salad.svg);
+}
+.sauce__icon{
+		width: 40.189px;
+	height: 43.416px;
+	background-image: url(../../icons/sauce.svg);
+}
+.cucumber__icon{
+		width: 42px;
+	height: 37.754px;
+	background-image: url(../../icons/cucumber.svg);
+}
+.cheese__icon{
+		width: 38.126px;
+	height: 34.138px;
+	background-image: url(../../icons/cheese.svg);
+}
+
+.ingridients__col{
+	    vertical-align: middle;
+    padding: 5px 0;
+}
+.ingridients__table{
+	font-family: 'Ubuntu-Medium','Comic Sans MS',sans-serif;
+
+}
+.ingridients{
+	position: absolute;
+	top:20px;
+	left: 0px;
+
+	background-color: #f08c33;
+	width: 90px;
+	height: 90px;
+	border-radius: 10px;
+
+}
+.ingridients__table{
+	width: 100%;
+}
+.ingridients__block{
+	position: absolute;
+	left: 50%;
+    top: 50%;
+	transform: translate(-50%, -50%);
+}
+.ingridients__title{
+
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Gagalin-Regular',Arial,sans-serif;
+	color: #fff;
+}
+.burger__weight{
+	opacity: 0.5;
+	position: absolute;
+	bottom: 70px;
+	left: 0px;
+}
+.weight__image{
+	position: relative;
+	background: url(../../icons/kkal.svg) 50% no-repeat;
+	    width: 65px;
+    height: 60px;
+}
+.weight__kkal{
+	text-align: center;
+	color: #fff;
+	font-family: 'Gagalin-Regular',Arial,sans-serif;
+}
+.weight__quantity{
+	    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gagalin-Regular';
+}
+.burger__left{
+	float:left;
+	width: 50%;
+}
+.burger__right{
+	padding-top: 50px;
+	float: left;
+	width:50%;
+}
+.burger__image{
+	padding-top: 95px;
+	max-width: 100%;
+	display: inline-block;
+}
+.burger__title{
+     white-space: normal;
+line-height: 1;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Gagalin-Regular',Arial,sans-serif;
+	font-size: 72px;
+	padding-bottom: 20px;
+}
+.burger__content{
+      white-space: normal;
+	font-family: 'Ubuntu-Light','Comic Sans MS',sans-serif;
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.8;
+	padding-bottom: 20px;
+}
+.burger__cost{
+	font-family: 'Gagalin-Regular','Comic Sans MS',sans-serif;
+	font-size:72px ;
+	color: #e35028;
+	display: inline-block;
+	
+}
+.burger__cost-wrapper{
+	display: inline-block;
+
+}
+.burger__order{
+		font-family: 'Gagalin-Regular','Comic Sans MS',sans-serif;
+	font-size:30px ;
+	text-transform: lowercase;
+	color: #e35028;
+	display: inline-block;
+	
+}
+
+.burger__buy{
+	width: 25%;
+	margin-bottom: 30px;
+	padding:13px 17px; 
+	margin-left: 32px;
+	
+}
